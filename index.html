@@ -1,116 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<style>
-    body {
-        background: url(../images/5983.jpg_wh300.jpg);
-    }
-</style>
-<body>
-    
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#About">About Me</a></li>
-            <li><a href="#Resume">Resume</a></li>
-            <li><a href="#Work">Work</a></li>
-            <li><a href="#Contact">Contact Me</a></li>
-            
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thair Ibadi's Portfolio</title>
+  </head>
+  <body>
+    <!-- Hamburger Menu in Upper Left Hand Corner -->
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Main Body Content -->
+      <div class="content">
+        <h1>Thair Ibadi</h1>
+      </div>
+    </div>
+    <!-- Navigation Links -->
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i><a href="#"> Home</a></li>
+        <li><i class="fas fa-user-alt"></i><a href="#About"> About</a></li>
+        <li><i class="fas fa-file"></i><a href="#Resume">Resume</a></li>
+        <li><i class="fas fa-briefcase"></i><a href="#Work">Work</a></li>
+        <li><i class="fas fa-envelope"></i><a href="#Contact"> Contact</a></li>
+      </ul>
     </nav>
-    <main>
-    <section id="Home">
-        <div class="messege">
-        </div>
-        <div class="main">
-            <h1 class="headings">I AM <br> THAIR IBADI</h1>
-            <a href="#Contact">
-                <button class="btn">
-                    Hire Me
-                </button>
-            </a>
-        </div>
-       <div class="welcome">  <p> Hello I'm a Web Developer and welcome to my portfolio! It's such a pleasure to have you here and an honour to introduce my work to you! I have spent six month learning codes through University of Washington, as you can explore my portfolio and you'll  notice that I have worked with a lot of web projects. Thank you for visiting! </p>
-       </div>
-    </section>
-    
-    <section id="About">
-    <main> 
-        <div id="pic">
-            <h1 class="headings">About Me</h1>
-           <img src="../images/thair.png" alt=""> 
-           <div class="intro">
-            <h2></h2>
-           </div>
-           <p>Hello, I’m Thair! I’m a traveler with a background in Mechanical Engineering; which is close to my current work field as well. 
-            I have always wanted to to grow and enhance my knowledge into a more complex branch of Engineering. Therefore, I joined the Coding Bootcamp of UW to pursue my dream and become a Web Developer in a high Tech company. It was a challenging course with great knowledge that boosted my skills and confidence in Software Engineering.  </p>
-        </div>
-    </main>
-    </section>
-    
-    <section id="Resume">
-    <main>
-        <h1 class="headings"> Resume</h1>
-        <div class="img">
-            <img src="" alt="">
-            <button class="btnn"> Click here to Review Resume</button>
-            
-        </div>
-    </main>
-    </section>
-     
-    
-    <section id="Work">
-    <body>
-        <style>
-            body {
-                background: url(../images/5983.jpg_wh300.jpg);
-            }
-        </style>
-        <h1 class="headings">Work</h1>
-        <div class="gallery">
-           <div class="w3-container w3-teal">
-              
-               <img src="../images/codeRef.png" alt="Horiseon Code Refactor"> </div> 
-            
-            <img src="../images/DayPlanner.png" alt="Day Planer">
-            <img src="../images/event.png" alt="Event Finder">
-            <img src="../images/eventSearch.png" alt="Event Search">
-            <img src="../images/myTeam.png" alt="mountains">
-            <img src="../images/quizG.png" alt="mountains">
-            <img src="../images/fitNut.png" alt="mountains">
-            <img src="../images/fittNut.png" alt="mountains">
-            
-
-        </div>
-    </body>
-    <style>
-        body {
-            background: url(../images/5983.jpg_wh300.jpg);
-        }
-    </style>
-    </section>
-    <a class="test1" href="https://github.com/Thair-i/Code-Refactor.git">Horiseon Code Refactor</a>
-    <section id="Contact">
-        <h1 class="headings">Contact</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter Your Name">
-            <input type="email" name="email" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <input type="submit" value="SEND" id="send">
-
-        </form>
-       
-        
-
-    </section>
-    </main>
-<body> 
-    
+    <script src="script.js"></script>
+  </body>
 </html>
